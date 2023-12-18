@@ -1,4 +1,4 @@
-package com.firstapp.crud.car;
+package com.firstapp.crud.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -21,16 +21,22 @@ public class Car {
     @Id
     @Column (unique = true, nullable = false)
     String registration;
+
     @Column (nullable = false)
     String brand;
+
     @Column (nullable = false)
     String model;
+
     @Column
     Double displacement;
+
     @Column
     Integer power;
+
     @Column (nullable = false)
     String color;
+
     @Column (nullable = false)
     Double price;
 

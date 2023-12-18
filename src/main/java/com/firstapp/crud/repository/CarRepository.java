@@ -1,6 +1,7 @@
-package com.firstapp.crud.car;
+package com.firstapp.crud.repository;
 
-import com.firstapp.crud.car.dto.UpdateCarPriceDto;
+import com.firstapp.crud.model.dto.UpdateCarPriceDto;
+import com.firstapp.crud.model.Car;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.ListCrudRepository;

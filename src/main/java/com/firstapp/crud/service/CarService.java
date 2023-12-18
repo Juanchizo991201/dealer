@@ -1,6 +1,8 @@
-package com.firstapp.crud.car;
+package com.firstapp.crud.service;
 
-import com.firstapp.crud.car.dto.UpdateCarPriceDto;
+import com.firstapp.crud.model.dto.UpdateCarPriceDto;
+import com.firstapp.crud.model.Car;
+import com.firstapp.crud.repository.CarRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.firstapp.crud.car.dto;
+package com.firstapp.crud.model.dto;
 
 import lombok.Data;
 @Data
