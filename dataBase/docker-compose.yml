@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: car_dealer_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password   # Set your desired root password
+      MYSQL_DATABASE: dealer            # Set your desired database name
+      MYSQL_USER: admin           # Set your desired username
+      MYSQL_PASSWORD: admin   # Set your desired password
+    ports:
+      - "3306:3306"  # Expose MySQL port for external connections
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
