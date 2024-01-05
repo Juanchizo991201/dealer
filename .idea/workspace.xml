@@ -4,38 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <list default="true" id="ffb312e1-97d8-440c-b701-aec44922d8ac" name="Changes" comment="feature: crud car">
+=======
+    <list default="true" id="ffb312e1-97d8-440c-b701-aec44922d8ac" name="Changes" comment="refactor: project folder organization and controller enhance.">
+>>>>>>> main
       <change afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/controller/ClientController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/model/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/repository/ClientRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/service/ClientService.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
 =======
     <list default="true" id="ffb312e1-97d8-440c-b701-aec44922d8ac" name="Changes" comment="refactor: project folder organization and controller enhance.">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/model/dto/UpdateCarInfoDto.java" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+>>>>>>> main
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+=======
+>>>>>>> main
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/firstapp/crud/car/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/firstapp/crud/car/CarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/firstapp/crud/car/CarRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/firstapp/crud/car/CarService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/firstapp/crud/car/dto/UpdateCarPriceDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Car.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CarController.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CarRepository.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CarService.class.uniqueId2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/model/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/car/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/controller/CarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/car/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/repository/CarRepository.java" afterDir="false" />
@@ -52,6 +54,8 @@
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstapp/crud/controller/CarController.java" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +100,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feat/crud-car" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,6 +115,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/crud-client" />
+                    <option name="lastUsedInstant" value="1702870831" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feat/crud-car" />
                     <option name="lastUsedInstant" value="1702849244" />
@@ -149,6 +157,8 @@
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build crud.executor": "Run",
     "Gradle.Build dealer.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -160,7 +170,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "Spring Boot.CrudApplication.executor": "Run",
-    "git-widget-placeholder": "feat/crud-car",
+    "git-widget-placeholder": "feat/crud-client",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/juan/Documents/Personal/dealer/src/main/java/com/firstapp/crud/model",
     "node.js.detected.package.eslint": "true",
@@ -215,7 +225,13 @@
       <recent name="com.firstapp.crud.controller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CrudApplication">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="CrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="crud.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.firstapp.crud.CrudApplication" />
@@ -223,6 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -242,6 +264,7 @@
       <workItem from="1702778276736" duration="8945000" />
       <workItem from="1702838477324" duration="10427000" />
       <workItem from="1702850666644" duration="797000" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <workItem from="1702852071829" duration="6320000" />
 =======
@@ -254,6 +277,9 @@
       <workItem from="1703390203267" duration="599000" />
       <workItem from="1704418261386" duration="3760000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1702852071829" duration="8411000" />
+>>>>>>> main
     </task>
     <task id="LOCAL-00001" summary="feature: crud car">
       <option name="closed" value="true" />
@@ -279,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702849266938</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: project folder organization and controller enhance.">
+      <option name="closed" value="true" />
+      <created>1702869040858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702869040858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +332,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature: crud car" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="feature: crud car" />
 =======
@@ -305,5 +340,9 @@
     <MESSAGE value="feature: crud client" />
     <option name="LAST_COMMIT_MESSAGE" value="feature: crud client" />
 >>>>>>> Stashed changes
+=======
+    <MESSAGE value="refactor: project folder organization and controller enhance." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: project folder organization and controller enhance." />
+>>>>>>> main
   </component>
 </project>
