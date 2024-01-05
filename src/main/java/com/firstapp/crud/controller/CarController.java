@@ -67,7 +67,7 @@ public class CarController {
 
     //    Update a car information
     @PutMapping("/")
-    public ResponseEntity<?> updateCar(@RequestBody UpdateCarInfoDto carDto) {
+    public ResponseEntity<Car> updateCar(@RequestBody UpdateCarInfoDto carDto) {
         try {
             if (this.carService.exists(carDto.getRegistration())) {
                 Car car = this.carService.getCarByRegistration(carDto.getRegistration());
@@ -79,7 +79,7 @@ public class CarController {
                 this.carService.save(car);
                 return ResponseEntity.ok().body(car);
             } else {
-                return ResponseEntity.badRequest().body("car with registration " + carDto.getRegistration() + " does not exist");
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
             }
         } catch (Exception e) {
             // Log the exception or handle it as appropriate for your application
