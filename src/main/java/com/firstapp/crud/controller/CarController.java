@@ -1,5 +1,6 @@
 package com.firstapp.crud.controller;
 
+import com.firstapp.crud.model.dto.UpdateCarInfoDto;
 import com.firstapp.crud.service.CarService;
 import com.firstapp.crud.model.dto.UpdateCarPriceDto;
 import com.firstapp.crud.model.Car;
@@ -32,6 +33,7 @@ public class CarController {
         }
     }
 
+    // Get a car by registration
     @GetMapping("/{registration}")
     public ResponseEntity<Car> getCar(@PathVariable String registration) {
         try {
@@ -63,15 +65,21 @@ public class CarController {
         }
     }
 
-    //    Update a car
+    //    Update a car information
     @PutMapping("/")
-    public ResponseEntity<Car> updateCar(@RequestBody Car car) {
+    public ResponseEntity<?> updateCar(@RequestBody UpdateCarInfoDto carDto) {
         try {
-            if (car.getRegistration() != null && this.carService.exists(car.getRegistration())) {
-                Car updatedCar = carService.save(car);
-                return ResponseEntity.ok().body(updatedCar);
+            if (this.carService.exists(carDto.getRegistration())) {
+                Car car = this.carService.getCarByRegistration(carDto.getRegistration());
+                car.setBrand(carDto.getBrand());
+                car.setModel(carDto.getModel());
+                car.setDisplacement(carDto.getDisplacement());
+                car.setPower(carDto.getPower());
+                car.setColor(carDto.getColor());
+                this.carService.save(car);
+                return ResponseEntity.ok().body(car);
             } else {
-                return ResponseEntity.badRequest().body(car);
+                return ResponseEntity.badRequest().body("car with registration " + carDto.getRegistration() + " does not exist");
             }
         } catch (Exception e) {
             // Log the exception or handle it as appropriate for your application
